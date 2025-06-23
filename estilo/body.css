@@ -1,0 +1,169 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+    
+}
+/*style="background-color: rgb(235, 232, 237);"*/
+
+
+.titulo-principal{
+    text-align: center;
+    font-family: 'Comic Sans MS',cursive;
+    color: rgb(39, 0, 0);
+}
+/*style="text-align: center; font-family: 'Comic Sans MS', cursive; color: rgb(71, 0, 138);"*/
+
+
+.avatar {
+    text-align: center;
+}
+/*style="text-align: center;"*/
+
+
+.avatar-imag{
+    width: 200px;
+    border-radius: 50%;
+}
+/*style="width: 200px; border-radius: 50%;"*/
+
+
+.subtitulo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(190, 139, 139) ;
+    color: rgb(48, 0, 0);
+    width: 200px;
+    border: 10px solid rgb(73, 0, 0); 
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;/* cantos arredondados */
+    box-shadow: 10px 10px 10px #000000ec /* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/
+}
+/*style="font-family: Arial, Verdana, sans-serif; background-color: rgb(190, 139, 139); color: rgb(48, 0, 0);"*/
+
+
+.paragrafo1{
+    font-size: 18px;
+    text-align: justify;
+    font-family:Arial, Verdana, sans-serif;
+    color: black;
+    width: 300px;
+    border: 15px solid rgb(73, 0, 0); 
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 10px;/* cantos arredondados */
+    box-shadow: 10px 10px 10px #000000ec ;/* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/
+    background-image: url('../imagens/bgpaper.png');
+    background-repeat: repeat;
+}
+/*style="font-size: 18px; text-align: justify; font-family: Arial, Verdana, sans-serif; background-color: blanchedalmond; color: rgb(67, 66, 66);"*/
+
+
+.subtitulo2 {
+    font-family:Arial, Verdana, sans-serif ;
+    background-color: rgb(190, 139, 139);
+    color: rgb(48, 0, 0);
+    width: 200px;
+    border: 10px solid rgb(73, 0, 0); 
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;/* cantos arredondados */
+    box-shadow: 10px 10px 10px #000000ec /* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/
+}
+/*style="font-family: Arial, Verdana, sans-serif; background-color: rgb(116, 116, 147); color: rgb(0, 0, 50);"*/
+
+
+.paragrafo2 {
+    font-size: 18px;
+    text-align: justify;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(252, 200, 200);
+    color: black;
+    width: 300px;
+    border: 15px solid rgb(73, 0, 0);
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 10px;/* cantos arredondados */
+    background-image: url('../imagens/bgpaper.png');
+    box-shadow: 10px 10px 10px #000000ec /* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/
+    
+}
+/*style="font-size: 18px; text-align: justify; font-family: Verdana, sans-serif; background-color: rgb(167, 249, 221); color: rgb(27, 26, 26);*/
+
+
+.citação {
+    font-size: 14px;
+    font-family: 'Comic Sans MS', cursive;
+}
+/*style="font-size: 14px; font-family: 'Comic Sans MS', cursive;"*/
+
+
+.subtitulo-padrao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 0, 0);
+    width: 200px;
+    border: 10px solid rgb(73, 0, 0); 
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;/* cantos arredondados */
+    box-shadow: 10px 10px 10px #000000ec /* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/
+}
+/*style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 50);"*/
+
+
+.link-tutorial:active{
+    font-size: 18px;
+    color: #000000ec;
+   
+}
+/*style="font-size: 18px;*/
+
+
+.subtitulo-padrao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 0, 0);
+    width: 200px;
+    border: 10px solid rgb(73, 0, 0); 
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;/* cantos arredondados */
+    box-shadow: 10px 10px 10px #000000ec /* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/  
+}
+/*style="font-family: Arial, Helvetica, sans-serif;color: rgb(0, 0, 50);"*/
+
+
+.logo-ifes{
+    position: fixed;         /* fixa no viewport */
+    top: 0;                 /* no topo da tela */
+    right: 0;               /* canto direito da tela */
+    width: 150px;           /* largura da área */
+    height: 150px;          /* altura da área */
+    background-image: url('../imagens/logo-ifes.png');
+    background-repeat: no-repeat;
+    background-position: center center;  /* centraliza a imagem dentro da div */
+    background-size: contain;             /* ajusta o tamanho para caber dentro da div */
+    z-index: 1000;           /* garante que fique na frente de outros elementos */
+
+    
+}
+/*style="width:150px;*/
+
+
+.subtitulo-padrao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 0, 0);
+    width: 200px;
+    border: 10px solid rgb(73, 0, 0); 
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;/* cantos arredondados */
+    box-shadow: 10px 10px 10px #000000ec /* sombra externa termos offset-x offset-y blur-radius spread-radius color;+*/
+}
+/*style="font-family: Arial, Helvetica, sans-serif;color: rgb(0, 0, 50);"*/
+
+.imagem-ifes:link {
+    width: 300px;
+    
+}
+/*style="width: 300px;"*/
+
