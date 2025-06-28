@@ -1,6 +1,11 @@
 body {
     text-align: center;
     background-color: rgb(255, 255, 255);
+    background-image: url("../imagens/logoSerra.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 150px;
+    background-attachment: fixed; /* ou scroll*/
 
     
 }
@@ -133,16 +138,7 @@ body {
 
 
 .logo-ifes{
-    position: fixed;         /* fixa no viewport */
-    top: 0;                 /* no topo da tela */
-    right: 0;               /* canto direito da tela */
-    width: 150px;           /* largura da área */
-    height: 150px;          /* altura da área */
-    background-image: url('../imagens/logo-ifes.png');
-    background-repeat: no-repeat;
-    background-position: center center;  /* centraliza a imagem dentro da div */
-    background-size: contain;             /* ajusta o tamanho para caber dentro da div */
-    z-index: 1000;           /* garante que fique na frente de outros elementos */
+   width: 150px;
 
     
 }
